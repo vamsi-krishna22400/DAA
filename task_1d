@@ -1,0 +1,8 @@
+for (int i = 1; i <=n; i *= c) 
+{ 
+		// some expressions 
+} 
+for (int i = n; i > 0; i /= c) 
+{ 
+		// some expressions
+ }
