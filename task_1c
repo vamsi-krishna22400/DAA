@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main()
+{
+int i,j,n = 8;
+for (int i = 1; i <= n; i++)
+{
+for (int j = 1; j <= n; j++)
+{
+printf("VELTECH\n");
+} } } 
+
+
+for (int i = 1; i <=n; i += c) 
+{ 
+	for (int j = 1; j <=n; j += c)
+		 { 
+		   // some expressions 
+		} 
+}
+
+int m=0;
+       // Executed n times
+         for (int i = 0; i < n; i++) {
+             m=m+1;
+  }
+    // outer loop executed n times
+   for (int i = 0; i < n; i++) {
+// inner loop executed n times
+       for(int j = 0; j < n; j++)
+             m=m+1;
+  }
