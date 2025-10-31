@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int arr[N]
+void allSubsets(int pos, int len, int[] subset) {
+  if (pos == N) //position
+  {
+    print(subset)
+    return
+  }
+  subset[len] = arr[pos]
+  //take element
+  allSubsets(pos + 1, len + 1, subset)
+  // Skip the current element.
+  allSubsets(pos + 1, len, subset)
+}
